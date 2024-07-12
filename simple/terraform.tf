@@ -22,7 +22,7 @@ resource "temporalcloud_namespace" "namespace" {
 }
 
 resource "temporalcloud_user" "developer" {
-  email          = "jltest@temporal.io"
+  email          = "sample@sample.io"
   account_access = "Developer"
   namespace_accesses = [
       {
