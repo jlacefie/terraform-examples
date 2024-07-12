@@ -1,0 +1,7 @@
+# Ignore all CA files
+ca.*
+
+#ignore TF generated content
+.terraform*
+terraform.tfstate*
+*DS_Store
